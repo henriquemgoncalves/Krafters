@@ -11,10 +11,7 @@ const Footer = () => {
 
   return (
     <footer>
-        <h2>
-            &copy;{new Date().getFullYear()} - Desenvolvido por Henrique.
-        </h2>
-        <div id='social'>
+        <div className='social'>
           <div className="content-social">
             <a 
               href="https://www.linkedin.com/in/henrique-madruga-gonçalves-044a072aa" 
@@ -45,6 +42,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <h2>
+            &copy;{new Date().getFullYear()} - Desenvolvido por Henrique.
+        </h2>
     </footer>
   )
 }
