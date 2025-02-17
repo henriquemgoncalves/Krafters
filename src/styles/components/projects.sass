@@ -1,0 +1,35 @@
+#projects
+    width: 100%
+    height: auto
+    background-color: #fff
+    border-bottom: 2px solid #fffb00
+
+    .content
+        display: flex
+        flex-direction: row
+        justify-content: space-evenly
+        align-items: center
+        padding: 4rem 0
+        width: 100%
+        color: #272727
+
+        .item
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+
+            h1
+                font-size: 3rem
+                font-weight: 700
+                color: #078ed0
+
+            p
+                color: #000
+                font-size: 1.3rem
+                font-weight: 400
+
+    @media ( max-width: 600px )
+        .content
+            flex-direction: column
+            gap: 3rem
